@@ -1,0 +1,336 @@
+body {
+    
+    background: hsl(218, 28%, 13%);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-link {
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    .intro-pic{
+        width: 100%;
+    }
+    .intro-header{
+        width: 100%;
+    }
+    .icons-sec{
+        width: 100%;
+    }
+    .col {
+        padding: 0 4rem ;
+    }  
+    .testimons {
+        width: 90%;
+    }
+    .signup{
+        width: 90%;
+        margin: auto;
+    }
+    .signup p{
+        width: 95%;
+        margin: 2rem auto;
+    }
+    form {
+        display: grid;   
+    }
+    input {
+        background-color: white;
+        border-radius: 25px;
+        width: 100%;
+        height: 3rem;
+        margin: 0 auto;
+        padding-left: 1rem;
+    }
+    .butnFree {
+        width: 100%;
+        margin: 1rem auto;
+        background: linear-gradient(344deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+        color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+        padding: 0.5rem 1rem;
+    }
+    
+    
+}
+
+@media screen and (min-width: 800px){
+    .intro-header {
+        width: 50%;
+        margin: auto;
+    }
+   .prod-head{
+    width: 60%;
+   }
+    
+    .icons-sec {
+        width: 80%;
+    }
+   
+   
+    .testimons {
+        width: 80%;
+    }
+    .col {
+        padding: 0 5rem ;
+    }
+    .signup{
+        width: 70%;
+    }
+    .signup p{
+        width: 80%;
+        margin: 2rem auto;
+    }
+    form {
+        display: flex;
+        margin: 0 auto;
+    }
+    input {
+        background-color: white;
+        border-radius: 25px;
+        width: 70%;
+        height: 3rem;
+        margin: 0;
+        padding-left: 1rem;
+    }
+    .butnFree {
+        padding: 0.5rem 1rem;
+        background: linear-gradient(344deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+        color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+        margin: 0 0 0 2rem  ;
+    }
+    .about {
+        justify-content: center;
+    }
+    
+    
+}
+
+.container-intro {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.intro-header {
+    margin-top: 2rem;
+    line-height: 3rem;
+}
+
+.intro-txt {
+    margin-top: 2rem;
+}
+
+.startbutton {
+    background: linear-gradient(344deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 0.5rem 3rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.startbutton:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+.icons-sec {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+.icons {
+    padding: 0 2rem 2rem;
+}
+
+
+.prod-sec {
+    padding-top: 3rem;
+}
+.prod-sec a {
+    color: hsl(176, 68%, 64%);
+}
+
+.prod-sec a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.testimons {
+    margin: auto;
+    padding-top: 7rem;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.Grid {
+    background-color: hsl(219, 30%, 18%);
+    padding: 1.5rem;
+}
+
+.marks {
+    position: absolute;
+    top: 75px;
+    left: -5px;
+  z-index: -1;
+}
+
+.profpic {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.testname{
+   
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    
+}
+
+
+.testtext {
+    margin: 1rem;
+    line-height: 0.4;
+}
+
+.nam {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 10px;
+}
+
+.signup{
+    background-color: hsl(217, 28%, 15%);
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    text-align: center;
+    position: relative;
+    top: 7rem;
+    z-index: 1;
+}
+
+
+
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input:invalid{
+    border-color: red;
+    border-width: 2px;
+}
+
+
+
+.butnFree:hover {
+    background: hsl(176, 68%, 64%);
+}
+
+.footer {
+    margin: 0 auto;
+    background-color: hsl(216, 53%, 9%);
+    background-size: cover;
+    padding: 7rem 1rem 2rem 6rem;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+
+.Grid2{
+    margin: 0 auto;
+}
+
+.location {
+    display: flex;
+}
+
+.location p {
+    padding: 0 4rem 0 1rem ;
+}
+
+.fotlogo {
+    padding: 2rem 0;
+}
+
+.about {
+    display: grid;
+}
+
+.contact {
+    display: grid;
+    
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 0 0 0.5rem 0;
+    font-family: "Raleway", sans-serif;
+}
+
+a:hover {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.iconlink {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border: solid, 0.4px;
+    border-radius: 25px;
+}
+
+.iconlink:hover {
+    color: hsl(176, 68%, 64%);
+}
